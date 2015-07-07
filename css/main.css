@@ -1,0 +1,162 @@
+<style type="text/css">
+html, body {
+	margin:0
+}/* for ie mac*/
+/* commented backslash hack v2 \*/ 
+html, body {
+	height:100%;
+	padding:0;
+    font-family: 'Lato';
+    margin:0
+}
+/* end hack */ 
+
+#top-bar {
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:50px;
+	width:150%;
+	margin:0;
+	padding:0;
+	z-index:0;
+	overflow:visible;
+	text-align: center;
+	 -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+   
+}
+
+#topbar-inner {
+    height:50px;
+	background:white;
+	position-background:right;
+	 -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+
+}
+
+
+
+#footer-inner {
+    margin-top:20px;
+	padding: 15px;
+	width: 100%;
+    height:100px;
+    background-color: #34495e;
+    text-align: center;
+}
+#footer {
+    margin:0;
+    position:relative;
+	bottom:0;
+	width:100%;
+	height:100px;
+	z-index:1;
+    padding:0;
+	overflow:visible;
+	text-align: center;
+    background-color: #34495e;
+    	 -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+    
+   
+}
+/*.spacer {
+	height:50px;
+	 -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+}/* same height as footer/header to preserve space*/
+p {
+	margin-top:0
+}
+ul {
+	margin:0 auto;
+	padding: 0;
+	list-style: none;
+	width:600px;
+}
+ul li {
+	position: relative;
+	float: left;
+	width:149px;
+}
+li ul {
+	position: absolute;
+	left: 0;
+	top: auto;
+	display: none;
+	z-index:999;
+	width:auto
+}
+li ul ul {
+	position: absolute;
+	left:100%;
+	top: -.1em;
+	display: none;
+}
+/* Styles for Menu Items */
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #777;
+	background: #fff; /* IE6 Bug */
+	padding: 15px;
+	 -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+	/*border: 1px solid #ccc; */
+}
+/* this sets all hovered lists to blue */
+li:hover a, li.over a, li:hover li:hover a, li.over li.over a, li:hover li:hover li:hover a, li.over li.over li.over a, li:hover li a:hover, li.over li a:hover, li:hover li:hover li:hover a:hover, li.over li li a:hover, li:hover li:hover li:hover li:hover a:hover, li.over li.over li.over li.over a:hover {
+	color: #fff;
+	background-color: #34495e;
+}
+/* set dropdown to default */
+li:hover li a, li.over li a, li:hover li:hover li a, li.over li.over li a, li:hover li:hover li:hover li a, li.over li.over li.over li a {
+	color: #777;
+	background-color: #fff;
+}
+li ul li a {
+	padding: 2px 5px;
+} /* Sub Menu Styles */
+ul li:hover ul ul, ul li:hover ul ul ul, ul li.over ul ul, ul li.over ul ul ul {
+	display:none;
+}
+ul li:hover ul, ul li li:hover ul, ul li li li:hover ul, ul li.over ul, ul li li.over ul, ul li li li.over ul {
+	display: block;
+}
+/** Navbar end **/
+
+
+
+#aboutme {
+    margin:10px;
+}
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+</style>
